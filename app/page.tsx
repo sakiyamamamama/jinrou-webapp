@@ -20,7 +20,7 @@ export default function Home() {
         ))}
       </ul> */}
       <h2>人狼ゲーム</h2>
-      <Link href={{ pathname: '/gameMain',query:{ gameId: `${uniqueValue}`}}}>プレイ</Link>
+      <Link href={{ pathname: '/gameMain',query:{ gameId: `${uniqueValue}`,post:'GM'}}}>プレイ</Link>
     </main>
   );
 }
